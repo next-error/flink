@@ -1,0 +1,6 @@
+1.创建视图,关联Schema --由物理数据增加列 变更列的类型 ;  根据MetaData 生成相关列
+2.自定义函数
+    UDAF:自定义聚合函数 继承AggregateFunction类,重写 createAccumulator accumulate  getValue 方法
+    UDTF:自定义炸裂函数 继承TableFunction类, 重写 eval 方法
+3.Kafka的sql Source
+4.
